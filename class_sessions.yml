@@ -1,0 +1,266 @@
+lectures:
+  Intro:
+    topic: Course Introduction and Intro to Probability Theory
+    videos: "[Introductory Probability Theory](https://youtu.be/iYqN10G_7BM)"
+    slides: "[Introductory Probability Theory](assets/slides/lecture1-probability-slides.pdf)"
+    readings:
+      - M&S 2.1
+    related readings:
+      - "[Goldsmith, 2007](https://journals.openedition.org/msh/pdf/7933)"
+
+  Speech Perception:
+    topic: Introductory Speech Perception 
+    slides:
+      - "Speech Perception and Rational Analysis ([with builds](assets/slides/speech_perception_and_rational_analysis_no_builds.pdf); [no builds](assets/slides/speech_perception_and_rational_analysis_with_builds.pdf))"
+    readings:
+      - PMSL 5.2.4
+    videos:
+      - "[Introduction to Speech Perception and Rational Analysis](https://youtu.be/m_PmDnArgM4)"
+
+  Speech Perception II:
+     topic: "Speech Perception (continued) and Introductory Rational Analysis"
+     readings:
+       - "[Anderson 1990, Chapter 1](assets/readings/anderson-1990-ch1.pdf)"
+     related readings:
+       - "[Clayards et al., 2008](https://www.sciencedirect.com/science/article/pii/S0010027708001017)"
+
+  Words:
+    topic: Introduction to Word Meaning
+    slides:
+      - "Introduction to word meaning ([with builds](assets/slides/2023-09-18-words-with-builds.pdf); [no builds](assets/slides/2023-09-18-words-no-builds.pdf))"
+    readings:
+      - "[Lake & Murphy, 2023](https://psycnet.apa.org/manuscript/2021-63913-001.pdf)"
+
+  Word Embeddings:
+    topic: Word Embeddings
+    slides:
+      - "Word embeddings ([with builds](assets/slides/2023-09-20-words-with-builds.pdf); [no builds](assets/slides/2023-09-20-words-no-builds.pdf))"
+    readings:
+      - "[Jurafsky & Martin SLP3 draft, Chapter 6](https://web.stanford.edu/~jurafsky/slp3/6.pdf)"
+    videos:
+
+  Sentences:
+    topic: Sentences, *N*-grams, and language models
+    slides:
+      - "Introductory Language Models ([no builds](assets/slides/2021-09-15-introductory-language-models-no-builds.pdf); [with builds](assets/slides/2021-09-15-introductory-language-models-with-builds.pdf))"
+    readings:
+      - "[SLP3 3](http://web.stanford.edu/~jurafsky/slp3/3.pdf), Sections 3.1–3.5 and 3.8"
+    videos:
+      - "[Introductory language models, part 1](https://youtu.be/a-lcMm9WkXA)"
+      - "[Introductory language models, part 2](https://youtu.be/zVvJyFQ714Q)"
+
+  Psycholinguistic methods:
+    topic: Psycholinguistic methods
+    slides:
+      - "Psycholinguistic methods, prediction in human language processing, and surprisal theory ([no builds](assets/slides/2023-09-27-psycholinguistic-methods-no-builds.pdf); [with builds](assets/slides/2023-09-27-psycholinguistic-methods-with-builds.pdf))"
+    videos:
+      - "Introduction to Psycholinguistic Methods ([Part 1](https://youtu.be/rW-sjNEUIQM); [Part 2: visual world](https://youtu.be/7ROLZtbx6no); [Part 3: reading](https://youtu.be/I7HM02aCwWQ); [Part 4: neural methods](https://youtu.be/fdRJb-MSnHA))"
+    readings:
+      - "[Kutas et al., 2011](http://kutaslab.ucsd.edu/people/kutas/pdfs/2011.PITB.190.pdf)"
+
+
+  Regexes and FSMs:
+    topic: Regular expressions, phonotactics, and finite-state machines
+    slides: "[Regular expressions and finite-state machines](assets/slides/finite_state_machines.pdf)"
+    videos:
+      - "[Part 1: Regular expressions](https://youtu.be/4WuShYhqjkM)"
+      - "[Part 2: Phonotactics](https://youtu.be/x5jYSMXNF18)"
+      - "[Part 3: Finite-state automata](https://youtu.be/Gx8A92eemWI)"
+    readings:
+      - "[Eisenstein, 2018, Section 9.1](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf)"
+      - "Optional: J&M2008 Chapter 2.1–2.4, Chapter 3 (downloadable from Canvas)"
+
+  FSM limitations:
+    topic: Regular languages, morphology, and syntax. Is human language finite-state?
+    slides: "[Regular expressions and finite-state machines](assets/slides/finite_state_machines.pdf)"
+    videos:
+      - "[Regular languages and their relation with finite-state models](https://youtu.be/eOw9qGV2Hh8)"
+      - "[Finite-state models, English syntax, and weak vs. strong generative capacity](https://youtu.be/FQa0k4e1SP8)"
+      - "[Multiple center-embedding, the pumping lemma, and limitations of finite-state machines](https://youtu.be/HwJuDzkO4Mk)"
+    optional videos:
+      - "[Finite-state transducers](https://youtu.be/pJ_Kt9oMAAE)"
+
+  CFGs:
+    topic: Context-free grammars; syntactic analysis
+    videos:
+      - "Context-free grammars ([part 1](https://youtu.be/V8H-7BUeD30); [part 2](https://youtu.be/4l93RphlKjY); [part 3](https://youtu.be/wlcNXr1eOIg))"
+    slides: 
+      - "[Context-free grammars](assets/slides/context_free_grammars_and_syntactic_analysis.pdf)"
+    readings:
+      - "[SLP3 Chapter 17, Sections 1–5](https://web.stanford.edu/~jurafsky/slp3/17.pdf)"
+      - "[Bender 2013, Chapters 5 (Syntax) and 6 (Parts of speech)](https://link-springer-com.libproxy.mit.edu/book/10.1007/978-3-031-02150-3)"
+
+  CFGs II:
+    topic: Context-free grammars and syntactic analysis continued
+    videos:
+      - "Unbounded dependency constructions ([part 1](https://youtu.be/CXhOQttXG-c); [part 2](https://youtu.be/lQpWpaMedQ4); [part 3](https://youtu.be/Qmea1FFBHlA))"
+    slides:
+      - "[Context-free grammars, part 2](assets/slides/context_free_grammars_and_syntactic_analysis_part_2.pdf)"
+    readings:
+      - "[Bender 2013, Chapter 7 (Heads, arguments, and adjuncts)](https://link-springer-com.libproxy.mit.edu/book/10.1007/978-3-031-02150-3)"
+      - "[NLTK book, Chapter 8, Sections 1–5](https://www.nltk.org/book/ch08.html)"
+      
+  PCFGs:
+    topic: Probabilistic context-free grammars
+    videos:
+      - "[Surprisal as a measure of linguistic expectation](https://youtu.be/1haDz2zgnww)"
+      - "[Syntactic corpus annotation and the Penn Treebank](https://youtu.be/qasg-eVkx88)"
+      - "[Syntactic ambiguity and interpretation preferences](https://youtu.be/bgDNjGHpCj4)"
+      - "[Probabilistic context-free grammars and the probabilistic Earley algorithm](https://youtu.be/fKp-ZQJIWEE)"
+      - "[Human syntactic processing and surprisal: garden-pathing](https://youtu.be/iPdzIVl-um0)"
+    slides:
+      - "Probabilistic context-free grammars, garden-pathing, and surprisal ([with builds](assets/slides/pcfgs-garden-pathing-and-surprisal-with-builds.pdf); [no builds](assets/slides/pcfgs-garden-pathing-and-surprisal-with-builds.pdf))"
+    readings:
+      - "[SLP3 Appendix C](https://web.stanford.edu/~jurafsky/slp3/C.pdf)"
+      - "[Levy, 2013](http://www.mit.edu/~rplevy/papers/levy-2013-memory-and-surprisal-corrected.pdf)"
+      - "[NLTK book, Chapter 8, Section 6](https://www.nltk.org/book/ch08.html)"
+
+  Bayes Nets:
+    topic: Bayes Nets and the perceptual magnet
+    videos: 
+      - "[Bayes Nets](https://youtu.be/1frfY7gMNUU)"
+      - "[The perceptual magnet effect: a Bayesian account](https://youtu.be/TAfa0lQLF7Y)"
+    readings:
+      - "[Russell & Norvig, 2010, Chapter 14](/Users/rlevy/ling/teaching/classes/2019spring/9.19/readings/)"
+      - "[Feldman & Griffiths, 2006](http://users.umiacs.umd.edu/~nhf/papers/PerceptualMagnet.pdf)"
+      - "[Levy in progress, Directed Graphical Models appendix](http://www.mit.edu/~rplevy/pmsl_textbook/chapters/pmsl_12.pdf)"
+    slides:
+      - "Bayes Nets ([with builds](assets/slides/2023-10-25-bayes-nets-with-builds.pdf); [no builds](assets/slides/2023-10-25-bayes-nets-no-builds.pdf))"
+      - "Perceptual Magnet ([with builds](assets/slides/2023-10-25-perceptual-magnet-with-builds.pdf); [no builds](assets/slides/2023-10-25-perceptual-magnet-no-builds.pdf))"
+
+  Logistic Regression:
+    topic: "Multi-factor and hierarchical models: logistic regression; word-order preferences in language; the binomial construction."
+    videos:
+      - "[Binomial ordering preferences](https://youtu.be/q7Mwrq9FI34)"
+      - "[Using n-gram statistics to study binomials](https://youtu.be/R_h6Dbvlv1s)"
+      - "[Logistic regression](https://youtu.be/_aAFzAKXlbc)"
+      - "[Idiosyncrasy and hierarchical models](https://youtu.be/rUBTEy5pA6w)"
+    slides:
+      - "Binomials & Logistic Regression ([with builds](assets/slides/logistic-regression-with-builds.pdf); [no builds](assets/slides/logistic-regression-no-builds.pdf))"
+    readings:
+      - "Russell & Norvig 2010, Chapter 18.6 (on Canvas)"
+      - "[Morgan & Levy 2015](http://www.mit.edu/~rplevy/papers/morgan-levy-2015-cogsci.pdf)"
+
+  Neural nets:
+    topic: Neural Networks for Natural Language
+    videos:
+      - "[Introduction to neural networks](https://youtu.be/v_fWdW2XCKs)"
+      - "[The neural *n*-gram model](https://youtu.be/fuEbChItlQc)"
+    optional videos:
+      - "[Recap of binomials and logistic regression](https://youtu.be/bR7rLZiikkk)"
+      - "[Simple recurrent networks](https://youtu.be/qJpVOvI25vw)"
+      - "[GRUs and LSTMs](https://youtu.be/F3AJ5186-pQ)"
+      - '[Learning the "counting language"](https://youtu.be/e6p4C0YatfU)'
+    slides:
+      - "Logistic regression recap, and simple neural networks ([no builds](assets/slides/2023-11-02-logistic-regression-and-neural-networks-no-builds.pdf); [with builds](assets/slides/2023-11-02-logistic-regression-and-neural-networks-with-builds.pdf)"
+      - "Neural networks for natural language ([no builds](assets/slides/2023-11-02-neural-networks-for-natural-language-no-builds.pdf); [with builds](assets/slides/2023-11-02-neural-networks-for-natural-language-with-builds.pdf)"
+
+  Transformers and LLMs:
+    topic: Transformers and large language models
+    videos:
+      - "[Transformer model architecture](https://youtu.be/fumNOezv6do)"
+      - "[Interacting with GPT-2](https://youtu.be/4SqdavSWhfs)"
+      - "[Targeted syntactic evaluation with SyntaxGym](https://youtu.be/3JFbU6F_SBY)"
+      - "[Filler–Gap Dependencies](https://youtu.be/kNlRlDs43pU)"
+      - "[Island constraints](https://youtu.be/omMMVoXDSqU)"
+    slides:
+      - "Transformers, targeted syntactic evaluation, and learnability ([no builds](assets/slides/2023-11-06-transformers-and-large-language-models-no-builds.pdf); [with builds](assets/slides/2023-11-06-transformers-and-large-language-models-with-builds.pdf))"
+    readings:
+      - "[Vaswani et al., 2017](https://arxiv.org/pdf/1706.03762.pdf)"
+      - "Sasha Rush's [The Annotated Transformer](http://nlp.seas.harvard.edu/annotated-transformer/)"
+      - "[Wilcox et al., 2018](https://direct.mit.edu/ling/article-abstract/doi/10.1162/ling_a_00491/113304/Using-Computational-Models-to-Test-Syntactic)"
+
+  Predictive processing:
+    topic: Predictive processing in human language comprehension
+    slides: "Predictive processing in human language comprehension ([no builds](assets/slides/2023-11-08-predictive-processing-no-builds.pdf); [with builds](assets/slides/2023-11-08-predictive-processing-with-builds.pdf))"
+    readings: "[Kutas et al., 2011](https://vorpus.org/papers/kutas-delong-smith-2011-chapter.pdf)"
+
+  Noisy channel:
+    topic: Noisy-channel language understanding
+    videos:
+      - "[Language comprehension and rational analysis](https://youtu.be/4sMHaCr1XrA)"
+      - "[Surprisal and local coherence effects](https://youtu.be/SH4cIcbsbvw)"
+      - "[Noisy channel models](https://youtu.be/dhk7SILh7WI)"
+      - "[Accounting for local coherence effects, part 1](https://youtu.be/a-TYh--a8vM)"
+      - "[Accounting for local coherence effects, part 2](https://youtu.be/j9tE_mF6ApA)"
+    slides:
+      - "Noisy-channel language processing ([no builds](assets/slides/2023-11-13-noisy-channel-language-processing-no-builds.pdf); [with builds](assets/slides/2023-11-13-noisy-channel-language-processing-with-builds.pdf))"
+    readings:
+      - "[Gibson, Bergen, and Piantadosi, 2013](https://www.pnas.org/doi/abs/10.1073/pnas.1216438110)"
+    
+      
+
+  Semantics I:
+    topic: Natural language semantics I
+    slides:
+      - "Introductory compositional semantics ([with builds](assets/slides/2023-11-15-semantics-I-with-builds.pdf); [no builds](assets/slides/2023-11-15-semantics-I-no-builds.pdf))"
+
+  Semantics II:
+    topic: Natural language semantics II
+
+  Pragmatics:
+    topic: Pragmatics
+    slides:
+      - "Introductory Bayesian Pragmatics ([with builds](assets/slides/2023-11-22-intro-bayesian-pragmatics-with-builds.pdf); [no builds](assets/slides/2023-11-22-intro-bayesian-pragmatics-no-builds.pdf))"
+    readings:
+      - "[Goodman & Frank, 2016](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(16)30122-X)"
+    related readings:
+      - "[Grice, 1975](https://edge.edx.org/asset-v1:Brown+CSCI2951-K+2015_T2+type@asset+block/grice75.pdf)"
+
+  Language production I:
+    topic: Human Language Production
+    slides:
+      - "[Language Production I](assets/slides/language-production-1.pdf)"
+    readings:
+      - "[Levy & Jaeger, 2006](https://proceedings.neurips.cc/paper_files/paper/2006/hash/c6a01432c8138d46ba39957a8250e027-Abstract.html)"
+
+  Language production II:
+    topic: Human Language Production, continued
+    slides:
+      - "[Language Production II](assets/slides/language-production-2.pdf)"
+    readings:
+      - "[Zhan & Levy, 2018](https://dspace.mit.edu/handle/1721.1/122953)"
+      - "[Clark et al., 2022](https://escholarship.org/content/qt1q19f8vt/qt1q19f8vt_noSplash_1c5c113f589d317f33dadea2e418b208.pdf)"
+
+  Acquisition I:
+    topic: Language development and acquisition
+    videos:
+      - "[First language acquisition as unsupervised learning](https://youtu.be/kftR61gPnFI)"
+      - "[Learning vowel categories](https://youtu.be/DI0LgNoirtA)"
+      - "[Conjugacy](https://youtu.be/j-QMdyyPN7E)"
+      - "[Gibbs sampling](https://youtu.be/49W40tsPwmE)"
+    readings:
+      - "[Feldman et al., 2013](https://cocosci.princeton.edu/tom/papers/LabPublications/PhoneticCategoryLearning.pdf) (Simulations 2–4 not necessary but encouraged)"
+
+  Acquisition II:
+    topic: Language development and acquisition II
+    videos:
+      - "[Unsupervised word segmentation](https://youtu.be/oFQ6Di_srj0)"
+      - "[Transition probabilities](https://youtu.be/5tMp4F2cvus)"
+      - "[Generative model for word segmentation](https://youtu.be/45T_MDZlds8)"
+      - "[Bigram model for word segmentation](https://youtu.be/cm8e7DQmn_4)"
+    readings:
+      - "[Goldwater et al., 2009](https://www.sciencedirect.com/science/article/pii/S0010027709000675?casa_token=8AN6_sStxkMAAAAA:k09Tn3WyqCaQwgYC8TmKejRXMTKndYHyibj6zxfE3i4kLrXvQlGHT0sF9MWtpXgAibg0ztyK4Q)"
+
+  Typology:
+    topic: The diversity of languages across the world
+    slides:
+      - "Global linguistic diversity ([with builds](assets/slides/2023-12-11-world-language-diversity-with-builds.pdf); [no builds](2023-12-11-world-language-diversity-no-builds.pdf))"
+
+  Indigenous Peoples Day:
+    topic: "*Indigenous People's Day, no class*"
+
+  Final Review:
+    topic: End-of-semester review
+
+  Final Exam:
+    topic: "**Final Exam**"
+
+  TBD:
+    topic: TBD
+
+  Midterm:
+    topic: "**Midterm Exam**"
+
+  None:
+    topic:
