@@ -1,36 +1,18 @@
+| Week of semester | Day       | Topic                          | Psets                  |
+|------------------+-----------+--------------------------------+------------------------|
+| Week 8           | Tu Apr 2  | Graphical and causal models    | Pset 1 out             |
+|                  | Th Apr 4  | Issues in causal inference     |                        |
+| Week 9           | Tu Apr 9  | GLMs through MCMC              | Pset 1 due; Pset 2 out |
+|                  | Th Apr 11 | Roger away                     |                        |
+| Week 10          | Tu Apr 16 | Good science                   | Pset 2 due; Pset 3 out |
+|                  | Th Apr 18 | Repeated measures              |                        |
+| Week 11          | Tu Apr 23 | Mixed models I                 | Pset 3 due; Pset 4 out |
+|                  | Th Apr 25 | Mixed models II                |                        |
+| Week 12          | Tu Apr 30 | Mixed models III               | Pset 4 due; Pset 5 out |
+|                  | Th May 2  | Mixed models IV                |                        |
+| Week 13          | Tu May 7  | Missing and observational data |                        |
+|                  | Th May 9  | High dimensional models        | Pset 5 due             |
+| Week 14          | Tu May 14 | More multivariate analysis     | Final projects due     |
 
-| Week         | Day        | Topic                    | In-class materials                                                                                                | Psets                                                   |
-|--------------+------------+--------------------------+-------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------|
-| Week 1       | Wed 6 Sep  | Intro                    |                                                                                                                   | [Pset 1](assets/assignments/pset_1.pdf) out             |
-| Week 2       | Mon 11 Sep | Speech Perception        |                                                                                                                   |                                                         |
-|              | Wed 13 Sep | Speech Perception II     |                                                                                                                   |                                                         |
-| Week 3       | Mon 18 Sep | Words                    |                                                                                                                   |                                                         |
-|              | Wed 20 Sep | Word Embeddings          |                                                                                                                   | [Pset 2](assets/assignments/pset_2.pdf) out             |
-| Week 4       | Mon 25 Sep | Sentences                |                                                                                                                   | Pset 1 due                                              |
-|              | Wed 27 Sep | Psycholinguistic methods |                                                                                                                   |                                                         |
-| Week 5       | Mon 2 Oct  | Regexes and FSMs         | [Finite-state syntax fragment](assets/in-class-exercises/2023-10-02-finite-state-syntax-fragment-exercise.pdf)    |                                                         |
-|              | Wed 4 Oct  | FSM limitations          |                                                                                                                   | Pset 2 due, [Pset 3](assets/assignments/pset_3.pdf) out |
-| Week 6       | Mon 9 Oct  | Indigenous Peoples Day   |                                                                                                                   |                                                         |
-|              | Wed 11 Oct | CFGs                     | [Context-free grammar fragment](assets/in-class-exercises/2023-10-11-cfg-grammar-fragment-development.pdf)        |                                                         |
-| Week 7       | Mon 16 Oct | CFGs II                  | [More CFG fragment development](assets/in-class-exercises/2023-10-16-cfg-grammar-fragment-development-part-2.pdf) |                                                         |
-|              | Wed 18 Oct | PCFGs                    | [Syntactic ambiguity and tree search](assets/in-class-exercises/syntactic-ambiguity-and-tree-search.pdf)          | Pset 3 due, [Pset 4](assets/assignments/pset_4.pdf) out |
-| Week 8       | Mon 23 Oct | Midterm                  |                                                                                                                   |                                                         |
-|              | Wed 25 Oct | Bayes Nets               | [Bayes nets and the perceptual magnet](assets/in-class-exercises/in-class-exercises-bayes-nets.pdf)               |                                                         |
-| Week 9       | Mon 30 Oct | Logistic Regression      | [Binomials and logistic regression](assets/in-class-exercises/binomials-and-logistic-regression.pdf)              | Pset 4 due                                              |
-|              | Wed 1 Nov  | Neural nets              |                                                                                                                   |                                                         |
-| Week 10      | Mon 6 Nov  | Transformers and LLMs    | [Transformer language models](assets/in-class-exercises/transformer-language-models.pdf)                          |                                                         |
-|              | Wed 8 Nov  | Predictive processing    | [Testing GPT-2](assets/in-class-exercises/transformer-language-models-2.pdf)                                      | [Pset 5](assets/assignments/pset_5.pdf) out             |
-| Week 11      | Mon 13 Nov | Noisy channel            |                                                                                                                   |                                                         |
-|              | Wed 15 Nov | Semantics I              |                                                                                                                   | [Pset 6](assets/assignments/pset_6.pdf) out             |
-| Week 12      | Mon 20 Nov | Semantics II             |                                                                                                                   |                                                         |
-|              | Wed 22 Nov | Pragmatics               |                                                                                                                   | Pset 5 due                                              |
-| Week 13      | Mon 27 Nov | Language production I    |                                                                                                                   | [Pset 7](assets/assignments/pset_7.pdf) out             |
-|              | Wed 29 Nov | Language production II   |                                                                                                                   | Pset 6 due                                              |
-| Week 14      | Mon 4 Dec  | Acquisition I            |                                                                                                                   |                                                         |
-|              | Wed 6 Dec  | Acquisition II           |                                                                                                                   |                                                         |
-|              | Fri 8 Dec  | None                     |                                                                                                                   | Pset 7 due; *Graduate course projects due*              |
-| Week 15      | Mon 11 Dec | Typology                 |                                                                                                                   |                                                         |
-|              | Wed 13 Dec | Final Review             |                                                                                                                   |                                                         |
-| *Final Exam* | Wed 20 Dec | Final Exam               |                                                                                                                   |                                                         |
 
 

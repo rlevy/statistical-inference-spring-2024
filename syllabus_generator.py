@@ -80,7 +80,7 @@ def getVal(dict,key):
     else:
         return("")
 
-with open('syllabus.markdown','w') as outfile:
+with open('index.markdown','w') as outfile:
     with open('assets/syllabus/syllabus_top.markdown','r') as syllabus_top:
         outfile.write(syllabus_top.read())
     
@@ -100,15 +100,15 @@ with open('syllabus.markdown','w') as outfile:
                 print(type(row))
                 print(row.keys())
                 print("Topic: " + str(row['Topic']))
-                new_row = {'Week': row['Week'],
+                new_row = {'Week': row['Week of semester'],
                            'Day': row['Day'],
                            'Topic': getVal(lectures[row['Topic']],'topic'),
-                           'Videos': getVal(lectures[row['Topic']],'videos'),
-                           'Slides': getVal(lectures[row['Topic']],'slides'),
-                           'Readings': getVal(lectures[row['Topic']],'readings'),
-                           'In-class handouts and exercises': row['In-class materials'],
-                           'Optional videos': getVal(lectures[row['Topic']],'optional videos'),
-                           'Related readings': getVal(lectures[row['Topic']],'related readings'),
+                           #'Videos': getVal(lectures[row['Topic']],'videos'),
+                           #'Slides': getVal(lectures[row['Topic']],'slides'),
+                           #'Readings': getVal(lectures[row['Topic']],'readings'),
+                           #'In-class handouts and exercises': row['In-class materials'],
+                           #'Optional videos': getVal(lectures[row['Topic']],'optional videos'),
+                           #'Related readings': getVal(lectures[row['Topic']],'related readings'),
                            'Problem sets': row['Psets']}
                 new_rows.append(new_row)
             print(new_rows)

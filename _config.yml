@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "9.19: Computational Psycholinguistics (Fall 2023 edition)"
+title: "Statistical Inference in Brain and Cognitive Sciences, Spring 2024"
 email: rplevy@mit.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Advanced undergraduate & graduate class on language, computation,
   and the mind, taught in the Department of Brain & Cognitive Sciences at MIT
-baseurl: "/9.19-syllabus"
+baseurl: "/statistical-inference-spring-2024"
 url: "https://rlevy.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #include: ["_pages"]
 
