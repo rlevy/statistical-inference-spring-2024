@@ -28,7 +28,7 @@ You'll be graded on:
 
 
 |------------------------------------------------------------------------------------------------------------------------------+-------------------------+
-| Work                                                                                                                         | Grade percentage (9.19) |
+| Work                                                                                                                         | Grade percentage        |
 | A number of homework assignments throughout the semester                                                                     |                     75% |
 | A class project                                                                                                              |                     25% |
 
