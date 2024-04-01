@@ -8,8 +8,8 @@ title: Logistics
 ## Class information
 
 |-------------------------------|---------------------------------------------------|
-| Lecture Times                               | Tuesdays & Thursdays 9–10:30am
-| Lecture Location | TBD
+| Lecture Times                 | Tuesdays & Thursdays 9–10:30am
+| Lecture Location              | [46-3310](http://whereis.mit.edu/?go=46)
 | Syllabus                      | [https://rlevy.github.io/statistical-inference-spring-2024/](https://rlevy.github.io/statistical-inference-spring-2024/)
 
 ## Instructional staff

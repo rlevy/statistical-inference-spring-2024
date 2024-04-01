@@ -22,7 +22,7 @@ The readings list will be developed over the course of the semester, and will dr
 
 ## Software
 
-We will use 
+We will be using the [R](https://www.r-project.org/) statistical computing language, as well as its interface to the [Stan](https://mc-stan.org/) probabilistic programming language, in the class. R is extremely powerful and expressive out of the box, and its extraordinary collection of [community-contributed packages](https://cran.r-project.org/) makes it even more so. In particular I will use packages in the [tidyverse](https://www.tidyverse.org/) extensively, especially for data handling and visualizations, without spending a lot of time teaching them directly. If you don't have much previous experience with R, there are many tutorials and other self-study resources available; I recommend [R for Data Science](https://r4ds.hadley.nz/). The [RStudio](https://posit.co/products/open-source/rstudio/) integrated development environment (IDE) is popular and free; I will use it for the class, though you don't have to.
 
 
 ## Schedule
