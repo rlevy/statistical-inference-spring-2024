@@ -20,6 +20,10 @@ Class content will be of interest for students, postdocs, faculty, and researche
 
 The readings list will be developed over the course of the semester, and will draw on a variety of readings from multiple fields. There is no ready-made textbook customized to the content we'll be covering, so keep in mind that different readings may vary in the terminology, notation, and framing used for the same fundamental concepts. I also endeavor to provide written lecture notes throughout the semester.
 
+## Software
+
+We will use 
+
 
 ## Schedule
 

@@ -1,4 +1,7 @@
 lectures:
+  Introduction:
+    topic: Introduction to the class. Brief review of elementary probability and statistics. Brief introduction to R. Worked examples of analyses this class will teach you to do.
+    
   Graphical and causal models:
     topic: Graphical models, causal effects, randomized experiments, and observational studies.
     
@@ -14,17 +17,15 @@ lectures:
   Good science:
     topic: "Researcher degrees of freedom. Multiple comparisons. Exploratory vs confirmatory analyses. Optimal experiment design. Power analysis. Pre-registration."
     
-  Repeated measures:
-    topic: The problem of repeated measures. Easy fixes, when they are possible.
     
   Mixed models I:
-    topic: "Hierarchical/mixed-effects/multi-level regression modeling I: Fundamental concepts and formalization. Maximum likelihood based methods."
+    topic: "Hierarchical/mixed-effects/multi-level regression modeling I: The problem of repeated measures. Easy fixes, when they are possible. Fundamental concepts and formalization of mixed-effects models. Maximum likelihood based methods."
     
   Mixed models II:
-    topic: "Hierarchical/mixed-effects/multi-level regression modeling II: Model class, reparametrization, and contrasts. Scientifically interpretable parameterization for regression."
+    topic: "Hierarchical/mixed-effects/multi-level regression modeling II: Random effects structure and Keeping It Maximal."
     
   Mixed models III:
-    topic: "Hierarchical/mixed-effects/multi-level regression modeling III: random effects structure and Keeping It Maximal."
+    topic: "Hierarchical/mixed-effects/multi-level regression modeling III: Model class, reparametrization, and contrasts. Scientifically interpretable parameterization for regression."
     
   Mixed models IV:
     topic: "Hierarchical/mixed-effects/multi-level regression modeling IV: Bayesian methods. When and how much to worry about wrong modeling assumptions, and what to do about it."
