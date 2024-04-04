@@ -104,11 +104,11 @@ with open('index.markdown','w') as outfile:
                            'Day': row['Day'],
                            'Topic': getVal(lectures[row['Topic']],'topic'),
                            #'Videos': getVal(lectures[row['Topic']],'videos'),
-                           #'Slides': getVal(lectures[row['Topic']],'slides'),
-                           #'Readings': getVal(lectures[row['Topic']],'readings'),
+                           'Slides': getVal(lectures[row['Topic']],'slides'),
+                           'Readings': getVal(lectures[row['Topic']],'readings'),
                            #'In-class handouts and exercises': row['In-class materials'],
                            #'Optional videos': getVal(lectures[row['Topic']],'optional videos'),
-                           #'Related readings': getVal(lectures[row['Topic']],'related readings'),
+                           'Related readings': getVal(lectures[row['Topic']],'related readings'),
                            'Problem sets': row['Psets']}
                 new_rows.append(new_row)
             print(new_rows)

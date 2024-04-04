@@ -1,9 +1,13 @@
 lectures:
   Introduction:
     topic: Introduction to the class. Brief review of elementary probability and statistics. Brief introduction to R. Worked examples of analyses this class will teach you to do.
-    
+    slides: "Class intro slides ([no builds](assets/slides/2024-04-02-keynote-intro-slides-no-builds.pdf); [with builds](assets/slides/2024-04-02-keynote-intro-slides-with-builds.pdf)); [Intro probability slides](assets/slides/2024-04-02-intro-probability-slides.pdf)"
+    related readings: "[Probabilistic models in the study of language, chapters 2–5](https://www.mit.edu/~rplevy/pmsl_textbook/text.html)"
+
   Graphical and causal models:
     topic: Graphical models, causal effects, randomized experiments, and observational studies.
+    readings: "[Causal inference in R, Chapters 1–6](https://www.r-causal.org/)"
+    related readings: "[Hernan & Robins 2024, Chapters 1–3](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)"
     
   Issues in causal inference:
     topic: "Causal effects and preserving scientific interpretability: Collider bias, backdoor paths, and more. Why you generally shouldn't control for post-treatment variables."

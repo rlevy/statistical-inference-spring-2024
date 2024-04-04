@@ -1,18 +1,18 @@
-| Week of semester | Day       | Topic                          | Psets                  |
-|------------------+-----------+--------------------------------+------------------------|
-| Week 8           | Tu Apr 2  | Introduction                   | Pset 1 out             |
-|                  | Th Apr 4  | Graphical and causal models    |                        |
-| Week 9           | Tu Apr 9  | Issues in causal inference     | Pset 1 due; Pset 2 out |
-|                  | Th Apr 11 | GLMs through MCMC              |                        |
-| Week 10          | Tu Apr 16 | Good science                   | Pset 2 due; Pset 3 out |
-|                  | Th Apr 18 | Mixed models I                 |                        |
-| Week 11          | Tu Apr 23 | Mixed models II                | Pset 3 due; Pset 4 out |
-|                  | Th Apr 25 | Mixed models III               |                        |
-| Week 12          | Tu Apr 30 | Mixed models IV                | Pset 4 due; Pset 5 out |
-|                  | Th May 2  | Missing and observational data |                        |
-| Week 13          | Tu May 7  | High dimensional models        |                        |
-|                  | Th May 9  | More multivariate analysis     |                        |
-| Week 14          | Tu May 14 | Roger away                     | Final projects due     |
+| Week of semester | Day       | Topic                          | Slides | Readings | Psets                  |
+|------------------+-----------+--------------------------------+--------+----------+------------------------|
+| Week 8           | Tu Apr 2  | Introduction                   |        |          | Pset 1 out             |
+|                  | Th Apr 4  | Graphical and causal models    |        |          |                        |
+| Week 9           | Tu Apr 9  | Issues in causal inference     |        |          | Pset 1 due; Pset 2 out |
+|                  | Th Apr 11 | GLMs through MCMC              |        |          |                        |
+| Week 10          | Tu Apr 16 | Good science                   |        |          | Pset 2 due; Pset 3 out |
+|                  | Th Apr 18 | Mixed models I                 |        |          |                        |
+| Week 11          | Tu Apr 23 | Mixed models II                |        |          | Pset 3 due; Pset 4 out |
+|                  | Th Apr 25 | Mixed models III               |        |          |                        |
+| Week 12          | Tu Apr 30 | Mixed models IV                |        |          | Pset 4 due; Pset 5 out |
+|                  | Th May 2  | Missing and observational data |        |          |                        |
+| Week 13          | Tu May 7  | High dimensional models        |        |          |                        |
+|                  | Th May 9  | More multivariate analysis     |        |          |                        |
+| Week 14          | Tu May 14 | Roger away                     |        |          | Final projects due     |
 
 
 
