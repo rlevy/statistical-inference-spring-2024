@@ -12,7 +12,7 @@ lectures:
     
   Issues in causal inference:
     topic: "Causal effects and preserving scientific interpretability: Collider bias, backdoor paths, and more. Why you generally shouldn't control for post-treatment variables."
-    readings: "Pearl 2009, Chapter 1 (available on Canvas)"
+    readings: "Pearl 2009, Chapter 1 (available on Canvas and Piazza)"
 
   GLMs through MCMC:
     topic: "Brief recap of generalized linear models. Statistical inference through probabilistic programming. Bayesian inference through Markov Chain Monte Carlo. Model evaluation/comparison on the training set vs. on held-out data."
