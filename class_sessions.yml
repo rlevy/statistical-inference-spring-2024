@@ -8,9 +8,11 @@ lectures:
     topic: Graphical models, causal effects, randomized experiments, and observational studies.
     readings: "[Causal inference in R, Chapters 1–6](https://www.r-causal.org/)"
     related readings: "[Hernan & Robins 2024, Chapters 1–3](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)"
+    slides: "Introduction to causal inference ([no builds](assets/slides/2024-04-04-intro-to-causal-inference-no-builds.pdf); [with builds](assets/slides/2024-04-04-intro-to-causal-inference-with-builds.pdf))"
     
   Issues in causal inference:
     topic: "Causal effects and preserving scientific interpretability: Collider bias, backdoor paths, and more. Why you generally shouldn't control for post-treatment variables."
+    readings: "Pearl 2009, Chapter 1 (available on Canvas)"
 
   GLMs through MCMC:
     topic: "Brief recap of generalized linear models. Statistical inference through probabilistic programming. Bayesian inference through Markov Chain Monte Carlo. Model evaluation/comparison on the training set vs. on held-out data."
