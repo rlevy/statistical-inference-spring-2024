@@ -13,9 +13,12 @@ lectures:
   Issues in causal inference:
     topic: "Causal effects and preserving scientific interpretability: Collider bias, backdoor paths, and more. Why you generally shouldn't control for post-treatment variables."
     readings: "Pearl 2009, Chapter 1 (available on Canvas and Piazza)"
+    slides: "Potential outcomes framework ([no builds](assets/slides/2024-04-09-more-causal-inference-no-builds.pdf); [with builds](assets/slides/2024-04-09-more-causal-inference-with-builds.pdf)); Causal Bayes Nets ([no builds](assets/slides/2024-04-09-causal-Bayes-nets-no-builds.pdf); [with builds](2024-04-09-causal-Bayes-nets-with-builds.pdf))"
 
   GLMs through MCMC:
     topic: "Brief recap of generalized linear models. Statistical inference through probabilistic programming. Bayesian inference through Markov Chain Monte Carlo. Model evaluation/comparison on the training set vs. on held-out data."
+    readings: "[Levy in progress](https://www.mit.edu/~rplevy/pmsl_textbook/text.html), Section 4.4, Chapter 5, Sections 6.1–6.5 and 6.7–6.8; Kruschke 2015, Chapter 14 (available on Canvas and Piazza)"
+    related readings: "[Agresti, 2015](https://www.google.com/books/edition/_/dgIzBgAAQBAJ?hl=en&gbpv=1&pg=PR11&dq=generalized+linear+models+agresti), Chapter 1; [Carpenter et al., 2017](http://stat.columbia.edu/~gelman/research/unpublished/stan-paper-revision-feb2015.pdf); [Nicenboim et al., 2024](https://vasishth.github.io/bayescogsci/book/), Chapters 4 and 10"
       
   Roger away:
     topic: "**Roger away, no class**"
