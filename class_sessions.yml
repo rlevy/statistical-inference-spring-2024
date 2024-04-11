@@ -17,6 +17,7 @@ lectures:
 
   GLMs through MCMC:
     topic: "Brief recap of generalized linear models. Statistical inference through probabilistic programming. Bayesian inference through Markov Chain Monte Carlo. Model evaluation/comparison on the training set vs. on held-out data."
+    slides: "Causal Bayes nets ([no builds](assets/slides/2024-04-11-causal-Bayes-nets-no-builds.pdf); [with builds](assets/slides/2024-04-11-causal-Bayes-nets-with-builds.pdf)); Parameter estimation ([no builds](assets/slides/2024-04-11-parameter-estimation-no-builds.pdf); [with builds](assets/slides/2024-04-11-parameter-estimation-with-builds.pdf))"
     readings: "[Levy in progress](https://www.mit.edu/~rplevy/pmsl_textbook/text.html), Section 4.4, Chapter 5, Sections 6.1–6.5 and 6.7–6.8; Kruschke 2015, Chapter 14 (available on Canvas and Piazza)"
     related readings: "[Agresti, 2015](https://www.google.com/books/edition/_/dgIzBgAAQBAJ?hl=en&gbpv=1&pg=PR11&dq=generalized+linear+models+agresti), Chapter 1; [Carpenter et al., 2017](http://stat.columbia.edu/~gelman/research/unpublished/stan-paper-revision-feb2015.pdf); [Nicenboim et al., 2024](https://vasishth.github.io/bayescogsci/book/), Chapters 4 and 10; [Gelman et al., 2020](https://users.aalto.fi/~ave/ROS.pdf), Chapter 4 and Parts 2 & 3"
       
