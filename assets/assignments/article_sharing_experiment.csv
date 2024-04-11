@@ -1,9 +1,9 @@
-Outlook	Valence	Share	Count
-Optimist	Positive	Yes	1664
-Optimist	Positive	No	896
-Optimist	Negative	Yes	480
-Optimist	Negative	No	160
-Pessimist	Positive	Yes	16
-Pessimist	Positive	No	144
-Pessimist	Negative	Yes	128
-Pessimist	Negative	No	512
+Outlook,Valence,Share,Count
+Optimist,Positive,Yes,1664
+Optimist,Positive,No,896
+Optimist,Negative,Yes,480
+Optimist,Negative,No,160
+Pessimist,Positive,Yes,16
+Pessimist,Positive,No,144
+Pessimist,Negative,Yes,128
+Pessimist,Negative,No,512
