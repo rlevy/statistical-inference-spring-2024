@@ -5,7 +5,7 @@
 | Week 9           | Tu Apr 9  | Issues in causal inference     | [Pset 1](assets/assignments/pset_1.pdf) out |
 |                  | Th Apr 11 | GLMs through MCMC              |                                             |
 | Week 10          | Tu Apr 16 | Good science                   | Pset 1 due; Pset 2 out                      |
-|                  | Th Apr 18 | Mixed models I                 | [Pset 1](assets/assignments/pset_1.pdf) out |
+|                  | Th Apr 18 | Mixed models I                 | [Pset 2](assets/assignments/pset_2.pdf) out |
 | Week 11          | Tu Apr 23 | Mixed models II                |                                             |
 |                  | Th Apr 25 | Mixed models III               | Pset 3 out; Pset 2 due (Fri Apr 26)         |
 | Week 12          | Tu Apr 30 | Mixed models IV                |                                             |
