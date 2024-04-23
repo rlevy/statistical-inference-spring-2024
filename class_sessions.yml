@@ -18,36 +18,42 @@ lectures:
   Finish causal models plus elementary parameter estimation:
     topic: "More on causal graphical models. More on parameter estimation: frequentist and Bayesian methods."
     slides: "Causal Bayes nets ([no builds](assets/slides/2024-04-11-causal-Bayes-nets-no-builds.pdf); [with builds](assets/slides/2024-04-11-causal-Bayes-nets-with-builds.pdf)); Parameter estimation ([no builds](assets/slides/2024-04-11-parameter-estimation-no-builds.pdf); [with builds](assets/slides/2024-04-11-parameter-estimation-with-builds.pdf))"
-    readings: "[Levy in progress](https://www.mit.edu/~rplevy/pmsl_textbook/text.html), Section 4.4, Chapter 5, Sections 6.1–6.5 and 6.7–6.8; Kruschke 2015, Chapter 14 (available on Canvas and Piazza)"
-    related readings: "[Agresti, 2015](https://www.google.com/books/edition/_/dgIzBgAAQBAJ?hl=en&gbpv=1&pg=PR11&dq=generalized+linear+models+ agresti), Chapter 1; [Carpenter et al., 2017](http://stat.columbia.edu/~gelman/research/unpublished/stan-paper-revision-feb2015.pdf); [Nicenboim et al., 2024](https://vasishth.github.io/bayescogsci/book/), Chapters 4 and 10; [Gelman et al., 2020](https://users.aalto.fi/~ave/ROS.pdf), Chapter 4 and Parts 2 & 3"
+    readings: "[Levy in progress](https://www.mit.edu/~rplevy/pmsl_textbook/text.html), Section 4.4, Chapter 5, Sections 6.1–6.5 and 6.7–6.8"
+    related readings: "[Nicenboim et al., 2024](https://vasishth.github.io/bayescogsci/book/), Chapter 10"
       
   Roger away:
     topic: "**Roger away, no class**"
     
   Confidence intervals, hypothesis testing,  Monte Carlo:
     topic: "Confidence intervals & hypothesis testing (frequentist & Bayesian). Monte Carlo methods."
-    readings: "[Simmons et al., 2011](https://journals.sagepub.com/doi/full/10.1177/0956797611417632); [Gelman & Karlin, 2014](https://journals.sagepub.com/doi/full/10.1177/1745691614551642)"
+    readings: "[Levy in progress](https://www.mit.edu/~rplevy/pmsl_textbook/text.html), Chapter 5; Kruschke 2015, Chapter 14 (available on Canvas and Piazza)"
+    related readings: "[Carpenter et al., 2017](http://stat.columbia.edu/~gelman/research/unpublished/stan-paper-revision-feb2015.pdf)"
     slides: "[Confidence intervals, hypothesis testing, and Monte Carlo](assets/slides/2024-04-16-confidence-intervals-hypothesis-testing-Monte-Carlo-with-builds.pdf); [Generalized Linear Models](assets/slides/2024-04-16-generalized-linear-models.pdf)"
 
   MCMC and intro to GLMs:
     topic: "Markov-chain Monte Carlo. Introduction to probabilistic programming using Stan. Begin quick review of Generalized Linear Models (GLMs)."
-    readings: "[Simmons et al., 2011](https://journals.sagepub.com/doi/full/10.1177/0956797611417632); [Gelman & Karlin, 2014](https://journals.sagepub.com/doi/full/10.1177/1745691614551642)"
-    slides: "[Confidence intervals, hypothesis testing, and Monte Carlo](assets/slides/2024-04-16-confidence-intervals-hypothesis-testing-Monte-Carlo-with-builds.pdf); [Generalized Linear Models](assets/slides/2024-04-16-generalized-linear-models.pdf)"
+    readings: "[Simmons et al., 2011](https://journals.sagepub.com/doi/full/10.1177/0956797611417632)"
+    slides: "[Confidence intervals, hypothesis testing, and Monte Carlo](assets/slides/2024-04-16-confidence-intervals-hypothesis-testing-Monte-Carlo-with-builds.pdf)"
+    related readings: "[Agresti, 2015](https://www.google.com/books/edition/_/dgIzBgAAQBAJ?hl=en&gbpv=1&pg=PR11&dq=generalized+linear+models+ agresti), Chapter 1; [Gelman et al., 2020](https://users.aalto.fi/~ave/ROS.pdf), Chapter 4 and Parts 2 & 3"
 
   Linear regression:
     topic: "Linear regression: parameter estimation, confidence regions, *t* statistics, credit assignment problems, decomposition of variance, nested model comparison with the *F* test."
     readings: "Gelman & Hill 2007, chapters 3 & 4 (on Canvas)"
     slides: "[Generalized linear models: linear regression](assets/slides/2024-04-23-generalized-linear-models.pdf)"
+    related readings: "[Nicenboim et al., 2024](https://vasishth.github.io/bayescogsci/book/), Chapter 4"
 
   GLMs, effect size, power analysis, preregistration, repeated measures:
     topic: "Model class, contrasts, reparameterization. Logistic regression. Effect size. Power analysis and preregistration. The problem of repeated measures."
-    readings: "Gelman & Hill 2007, chapter 5 (on Canvas)"
+    readings: "Gelman & Hill 2007, chapter 5 (on Canvas); Kruschke 2015, chapter 13 (on Canvas)"
+    related readings: "[Gelman & Karlin, 2014](https://journals.sagepub.com/doi/full/10.1177/1745691614551642); [Simmons et al., 2011](https://journals.sagepub.com/doi/full/10.1177/0956797611417632)"
     
   Mixed models I:
     topic: "Hierarchical/mixed-effects/multi-level regression modeling I:  Fundamental concepts and formalization of mixed-effects models. Maximum likelihood based methods. Random effects structure and Keeping It Maximal. "
+    readings: "Gelman & Hill 2007, chapters 11 & 12 (on Canvas); [Barr et al., 2013](https://www.sciencedirect.com/science/article/pii/S0749596X12001180)"
     
   Mixed models II:
     topic: "Hierarchical/mixed-effects/multi-level regression modeling II: Bayesian methods. When and how much to worry about wrong modeling assumptions, and what to do about it."
+    readings: "Gelman & Hill 2007, chapters 13 & 14 (on Canvas)"
     
   Missing and observational data:
     topic: Dealing with missing data. Dealing with observational data. Instrumental variables. Identifying good "natural experiments".
