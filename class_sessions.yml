@@ -60,7 +60,7 @@ lectures:
 
   Mixed models III:
     topic: "Hierarchical/mixed-effects/multi-level regression modeling III: Bayesian methods. Post-hoc testing using a fitted model. Reporting results from a mixed effects model."
-    slides: "[R script for getting started with interactive practicum](assets/resources/practical_issues_with_mixed_models_II/practicum_2024_05_07_getting_started.Rmd)"
+    slides: "[R script for getting started with interactive practicum](assets/resources/practical_issues_with_mixed_models_II/practicum-2024-05-07-getting-started.Rmd)"
 
 
   Missing and observational data:
