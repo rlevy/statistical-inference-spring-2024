@@ -1,0 +1,86 @@
+## If there is time, we will discuss an interesting example from Setayesh Radkani's research on punishment
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Load the data and the libraries
+
+```{r, include=FALSE}
+# Load the libraries
+library(lme4)
+library(multcomp)
+#library(lmerTest)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(brms)
+```
+
+## Load data
+```{r, include=FALSE}
+### Load the data
+# formatted_data.csv is the output of preprocess_data.R script that preprocesses the raw data from Qualtrics.
+main_data3 <- read.csv("radkani_punishment_formatted_data_3.csv", header = TRUE) %>% dplyr::select(-c("gender", "age"))    
+
+# combine the Mild and Harsh into a single "Punish" action
+punish_data <- main_data3 %>% filter(action %in% c("Mild", "Harsh")) %>% 
+  dplyr::select(-c("action", "X", "scenario")) %>%
+  dplyr::group_by(participant, LW.condition) %>%
+  dplyr::summarise(across(everything(), mean))
+punish_data$action <- "Punish"
+scenarios <- main_data3 %>% filter(action %in% c("Mild")) %>%
+  dplyr::select(c("participant", "LW.condition", "scenario"))
+punish_data <- merge(punish_data, scenarios, by=c("participant", "LW.condition"))
+
+none_data <- main_data3 %>% filter(action %in% c("None")) %>%
+  dplyr::select(-c("X", "scenario", "action"))
+none_data$action <- "None"
+none_data <- merge(none_data, scenarios, by=c("participant", "LW.condition"))
+main_data5 <- dplyr::bind_rows(punish_data, none_data)
+rm(punish_data, none_data)
+```
+
+## Understand the structure of the dataset
+```{r}
+str(main_data5)
+```
+
+### A complex model with multiple fixed effects
+When participants have a strong prior belief that the target action was not wrong, they do not change this belief much, after observing punishment. We test for an interaction between action (not-punish, punish) and prior condition on the wrongness belief updates, in the “not-wrong” vs “legitimate” conditions. 
+```{r}
+dat <- main_data5 %>% filter(LW.condition %in% c("Not-wrong", "Legitimate"))
+# ideally we want to fit a maximal model for the main effects of legitimacy/wrongness condition + action, but this doesn't work:
+m <- lmer(wrongness.change ~ LW.condition * action + (LW.condition * action|participant) + (LW.condition * action|scenario),data=dat,REML=F)
+# Let's inspect the structure of the data to better understand the issue
+xtabs(~scenario + paste(LW.condition,action), dat) # lots of observations per scenario+condition+action combination. However, we should be cautious about the fact that there are only six scenarios (i.e., few clusters)
+xtabs(~participant + paste(LW.condition,action), dat) # but, there are no repeated measures within scenario+condition+action combination! This means that in the above mixed model specification, which has both random participant effects and random trial-level noise, the model is *unidentifiable*: participant-level random effects and trial-level noise cannot be fully distinguished. The key issue is that the sum of independent multivariate normally distributed random variables is also independent multivariate normal.
+#myprior <- set_prior("normal(0, 0.01)", class = "sigma")
+system.time(m.brm <- brm(wrongness.change ~ LW.condition * action + (LW.condition * action|scenario) + (LW.condition * action|participant),data=dat, save_model="/tmp/radkani-model-code.stan",iter=2,chains=1,warmup=1))
+```
+
+
+
+```{r}
+## For discussing flexible hypothesis testing with a fitted brms model, we will use an under-review dataset from a paper of mine.
+#  Download the file here: https://osf.io/n54qb?view_only=c49c658e64eb4f9a8d1d153f3c692898
+#  and then read it.
+haddock_data <- read_csv("aparicio-etal-exp2.csv")
+system.time(exp2.2x3 <- glmer(target ~ adjtype2*displaytype1 +
+                              (1+adjtype2*displaytype1 | usernum_unique)+
+                              (1+adjtype2*displaytype1 | stimnum),
+                            data=haddock_data,
+                            family="binomial"))
+saveRDS(exp2.2x3,"exp2.2x3.rds")
+summary(exp2.2x3)
+
+set.seed(1)
+system.time(system.time(exp2.2x3.brm <- brm(target ~ adjtype2*displaytype1 +
+                              (1+adjtype2*displaytype1 | usernum_unique)+
+                              (1+adjtype2*displaytype1 | stimnum),
+                            data=haddock_data,
+                            family="bernoulli",
+                            control=list(adapt_delta=0.9),
+                            iter = 6000)))
+saveRDS(exp2.2x3.brm,"exp2.2x3.brm.rds")
+
+```

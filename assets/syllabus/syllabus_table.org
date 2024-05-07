@@ -10,7 +10,7 @@
 |                  | Th Apr 25 | GLMs, effect size, power analysis, preregistration, repeated measures | Pset 2 due (Fri Apr 26)                            |
 | Week 12          | Tu Apr 30 | Mixed models I                                                        | [Pset 3](assets/assignments/pset_3/pset_3.pdf) out |
 |                  | Th May 2  | Mixed models II                                                       | Pset 4 out                                         |
-| Week 13          | Tu May 7  | Missing and observational data                                        | Pset 3 due                                         |
+| Week 13          | Tu May 7  | Mixed models III                                                      | Pset 3 due                                         |
 |                  | Th May 9  | High dimensional models                                               | Pset 4 due                                         |
 | Week 14          | Tu May 14 | Roger away                                                            | Final projects due                                 |
 
