@@ -64,7 +64,7 @@ lectures:
 
   Mixed models IV:
     topic: "Hierarchical/mixed-effects/multi-level regression modeling IV, and end of class"
-    slides: "[Practicum script 1](assets/resources/practical_issues_with_mixed_models_III/practicum_2024_05_09-getting-started.R); [Practicum script 2](2024-05-09-by-subjects-analysis-getting-started.R)"
+    slides: "[Practicum script 1](assets/resources/practical_issues_with_mixed_models_III/practicum_2024_05_09-getting-started.R); [Practicum script 2](assets/resources/practical_issues_with_mixed_models_III/2024-05-09-by-subjects-analysis-getting-started.R)"
 
   Missing and observational data:
     topic: Dealing with missing data. Dealing with observational data. Instrumental variables. Identifying good "natural experiments".
